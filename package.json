@@ -2,7 +2,7 @@
   "name": "what-to-eat-today",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wykun1120.github.io/eat",
+  "homepage": "https://wykun1120.github.io/what-to-eat-today",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
