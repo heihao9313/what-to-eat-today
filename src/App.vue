@@ -3,7 +3,7 @@
     <div v-show="foodList.length < 9">
       <nut-textinput
         v-model="currentVal"
-        label="今天吃什么："
+        label="今天什么："
         placeholder="请输入想吃的饭"
         :clearBtn="true"
         :disabled="false"
