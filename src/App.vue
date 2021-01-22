@@ -3,7 +3,7 @@
     <div v-show="foodList.length < 9">
       <nut-textinput
         v-model="currentVal"
-        label="今天什么："
+        label="今天吃什么："
         placeholder="请输入想吃的饭"
         :clearBtn="true"
         :disabled="false"
@@ -71,7 +71,7 @@ export default {
       turnsNumber: 5, // 转动圈数
       turnsTime: 5, // 转动时间：S
       styleOpt: {
-        prizeBgColors: ['rgb(255, 231, 149)', 'rgb(255, 247, 223)', 'rgb(255, 231, 149)', 'rgb(255, 247, 223)', 'rgb(255, 231, 149)', 'rgb(255, 247, 223)'],
+        prizeBgColors: ['rgb(255, 231, 149)', 'rgb(255, 247, 223)', 'rgb(255, 231, 149)', 'rgb(255, 247, 223)', 'rgb(255, 231, 149)', 'rgb(255, 247, 223)', 'rgb(255, 231, 149)', 'rgb(255, 247, 223)', 'rgb(255, 231, 149)'],
         borderColor: '#ff9800'
       },
       prizeIndex: -1, // 中奖奖品的index
